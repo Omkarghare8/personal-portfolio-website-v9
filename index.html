@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of Omkar Ghare - Creative Developer & Designer specializing in web development, UI/UX design, and digital solutions.">
+    <meta name="keywords" content="portfolio, web developer, designer, creative, frontend, UI/UX">
+    <meta name="author" content="Omkar Ghare">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Omkar Ghare - Creative Developer Portfolio">
+    <meta property="og:description" content="Professional Portfolio showcasing creative web development and design projects.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Omkar Ghare | Creative Developer & Designer Portfolio</title>
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">OG</div>
+            <div class="loader-3d">
+                <div class="loader-cube">
+                    <div class="loader-cube-face">O</div>
+                    <div class="loader-cube-face">M</div>
+                    <div class="loader-cube-face">K</div>
+                    <div class="loader-cube-face">A</div>
+                    <div class="loader-cube-face">R</div>
+                    <div class="loader-cube-face">.</div>
+                </div>
+            </div>
+            <div class="loading-progress">
+                <div class="loading-bar"></div>
+            </div>
+            <p class="loading-text">LOADING...</p>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="https://www.instagram.com/ogcoderworld" class="nav-logo">Omkar G.</a>
+        
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="nav-actions">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-circle"></i>
+                    Available for Freelance Work
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span>Omkar Rohidas Ghare</span><br>
+                    Creative Developer
+                </h1>
+                <p class="hero-description">
+                    I craft exceptional digital experiences through innovative web development, 
+                    stunning UI/UX design, and creative problem-solving. Let's build something amazing together.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="0">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="1">1+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-3d-container">
+                    <div class="hero-3d-card">
+                        <div class="hero-image-wrapper">
+                            <div class="hero-image" style="display: flex; justify-content: center; align-items: center; font-size: 5rem; color: white;">
+                                <i class="fas fa-user-astronaut"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-element floating-element-1">
+                        <i class="fab fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                    <div class="floating-element floating-element-2">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+                    <div class="floating-element floating-element-3">
+                        <i class="fas fa-palette"></i>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-user"></i>
+                About Me
+            </span>
+            <h2 class="section-title">Discover My <span>Story</span></h2>
+            <p class="section-description">
+                A passionate developer with a keen eye for design and a love for creating impactful digital solutions.
+            </p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-image-container reveal-left">
+                <div class="about-image-wrapper">
+                    <div class="about-image" style="display: flex; justify-content: center; align-items: center; font-size: 8rem; color: white;">
+                        <img src="Images/About-Image.jpeg" alt="About Me" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-pattern"></div>
+                <div class="about-experience-badge">
+                    <span class="number">1+</span>
+                    <span class="text">Years of<br>Experience</span>
+                </div>
+            </div>
+            
+            <div class="about-text reveal-right">
+                <h3>A Passionate Web Developer Based in Maharashtra, India</h3>
+                <p>
+                    With over a decade of experience in web development, I've had the privilege of working with 
+                    startups, agencies, and enterprise companies to create digital solutions that drive results.
+                </p>
+                <p>
+                    My approach combines technical expertise with creative thinking, ensuring every project 
+                    not only meets but exceeds expectations. I believe in clean code, intuitive design, 
+                    and continuous learning.
+                </p>
+                
+                <div class="about-info-grid">
+                    <div class="about-info-item">
+                        <i class="fas fa-user"></i>
+                        <div class="info-content">
+                            <strong>Name</strong>
+                            <span>Omkar R. Ghare</span>
+                        </div>
+                    </div>
+                    <div class="about-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <strong>Email</strong>
+                            <span>omkarghare88@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="about-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <strong>Location</strong>
+                            <span>Maharashtra, India</span>
+                        </div>
+                    </div>
+                    <div class="about-info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="info-content">
+                            <strong>Degree</strong>
+                            <span>B.Voc. Software Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://drive.google.com/file/d/1rk2jbLEHRVHdOUKigQ0VXS6Lt_j1-uHX/view?usp=drive_link" class="btn btn-primary" style="margin-top: 2rem;">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-cog"></i>
+                My Skills
+            </span>
+            <h2 class="section-title">Technical <span>Expertise</span></h2>
+            <p class="section-description">
+                A comprehensive toolkit of modern technologies and frameworks to bring your ideas to life.
+            </p>
+        </div>
+        
+        <div class="skills-content">
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive and interactive user interfaces</p>
+                    <div class="skill-technologies">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Creating robust server-side applications</p>
+                    <div class="skill-technologies">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing beautiful and intuitive interfaces</p>
+                    <div class="skill-technologies">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">Illustrator</span>
+                        <span class="skill-tag">Sketch</span>
+                        <span class="skill-tag">InVision</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Building cross-platform mobile applications</p>
+                    <div class="skill-technologies">
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">iOS</span>
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">PWA</span>
+                        <span class="skill-tag">Ionic</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>DevOps & Cloud</h3>
+                    <p>Deploying and managing cloud infrastructure</p>
+                    <div class="skill-technologies">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Nginx</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Others</h3>
+                    <p>Essential tools for modern development</p>
+                    <div class="skill-technologies">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-progress reveal">
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>JavaScript / TypeScript</span>
+                        <span class="percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>React / Vue.js</span>
+                        <span class="percentage">92%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="92"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>Node.js / Python</span>
+                        <span class="percentage">88%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>UI/UX Design</span>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-concierge-bell"></i>
+                Services
+            </span>
+            <h2 class="section-title">What I <span>Offer</span></h2>
+            <p class="section-description">
+                Comprehensive digital solutions tailored to meet your unique business needs and goals.
+            </p>
+        </div>
+        
+        <div class="services-content">
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <span class="service-number">01</span>
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern technologies, optimized for performance and scalability.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">02</span>
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that create meaningful and engaging digital experiences.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">03</span>
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">04</span>
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>Complete e-commerce solutions with secure payment integration and inventory management.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">05</span>
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Data-driven SEO strategies to improve your search rankings and drive organic traffic.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">06</span>
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Strategy</h3>
+                    <p>Comprehensive digital strategies to help your business grow and succeed online.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-briefcase"></i>
+                Portfolio
+            </span>
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <p class="section-description">
+                A showcase of my recent work and creative projects across various industries.
+            </p>
+        </div>
+        
+        <div class="portfolio-content">
+            <div class="portfolio-filters reveal">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card reveal" data-category="web">
+                    <div class="portfolio-image" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-desktop" style="font-size: 4rem; color: white;"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Web Design</span>
+                        <h3 class="portfolio-title">E-Commerce Platform</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>E-Commerce Platform</h4>
+                        <p>React, Node.js, MongoDB</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" data-category="app">
+                    <div class="portfolio-image" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-mobile-alt" style="font-size: 4rem; color: white;"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">App Development</span>
+                        <h3 class="portfolio-title">Fitness Tracker App</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Fitness Tracker App</h4>
+                        <p>React Native, Firebase</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" data-category="branding">
+                    <div class="portfolio-image" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="fas fa-paint-brush" style="font-size: 4rem; color: white;"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Branding</span>
+                        <h3 class="portfolio-title">Brand Identity Design</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Brand Identity Design</h4>
+                        <p>Figma, Illustrator</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" data-category="web">
+                    <div class="portfolio-image" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="fas fa-chart-bar" style="font-size: 4rem; color: white;"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Web Design</span>
+                        <h3 class="portfolio-title">Analytics Dashboard</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Analytics Dashboard</h4>
+                        <p>Vue.js, D3.js, Python</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" data-category="app">
+                    <div class="portfolio-image" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <i class="fas fa-comments" style="font-size: 4rem; color: #333;"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">App Development</span>
+                        <h3 class="portfolio-title">Social Media App</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Social Media App</h4>
+                        <p>Flutter, GraphQL</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" data-category="branding">
+                    <div class="portfolio-image" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);">
+                        <i class="fas fa-gem" style="font-size: 4rem; color: #333;"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Branding</span>
+                        <h3 class="portfolio-title">Luxury Brand Redesign</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="portfolio-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Luxury Brand Redesign</h4>
+                        <p>Photoshop, After Effects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-briefcase"></i>
+                Experience
+            </span>
+            <h2 class="section-title">Work <span>History</span></h2>
+            <p class="section-description">
+                A journey through my professional career and the milestones I've achieved along the way.
+            </p>
+        </div>
+        
+        <div class="experience-content">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Dec-2025 - Present</span>
+                    <div class="timeline-card">
+                        <h3>Senior Creative Developer</h3>
+                        <p class="company">Tech Innovators Inc.</p>
+                        <p>Leading the development of enterprise-level web applications and mentoring junior developers.</p>
+                        <ul>
+                            <li>Architected and built a microservices-based platform serving 1M+ users</li>
+                            <li>Reduced page load times by 60% through performance optimization</li>
+                            <li>Led a team of 8 developers in agile development practices</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Feb-2025 - Nov-2025</span>
+                    <div class="timeline-card">
+                        <h3>Full-Stack Developer</h3>
+                        <p class="company">Digital Solutions Co.</p>
+                        <p>Developed custom web solutions for clients across various industries.</p>
+                        <ul>
+                            <li>Built 50+ responsive websites and web applications</li>
+                            <li>Implemented CI/CD pipelines reducing deployment time by 40%</li>
+                            <li>Collaborated with design team to create intuitive user interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Sep-2024 - Dec-2024</span>
+                    <div class="timeline-card">
+                        <h3>Frontend Developer</h3>
+                        <p class="company">StartUp Hub</p>
+                        <p>Focused on creating engaging user interfaces and interactive experiences.</p>
+                        <ul>
+                            <li>Developed responsive designs for e-commerce platforms</li>
+                            <li>Integrated third-party APIs and payment gateways</li>
+                            <li>Optimized websites for SEO and accessibility</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Dec-2023 - Aug-2024</span>
+                    <div class="timeline-card">
+                        <h3>Junior Web Developer</h3>
+                        <p class="company">Creative Studio</p>
+                        <p>Started my journey in web development, learning and growing rapidly.</p>
+                        <ul>
+                            <li>Built and maintained company websites using HTML, CSS, and JavaScript</li>
+                            <li>Learned modern frameworks and best practices</li>
+                            <li>Participated in code reviews and team collaborations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-quote-left"></i>
+                Testimonials
+            </span>
+            <h2 class="section-title">Client <span>Reviews</span></h2>
+            <p class="section-description">
+                What my clients say about working with me and the results we've achieved together.
+            </p>
+        </div>
+        
+        <div class="testimonials-content">
+            <div class="testimonials-slider reveal" id="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "John delivered exceptional work on our e-commerce platform. His attention to detail and 
+                        technical expertise helped us achieve a 40% increase in conversions. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="display: flex; justify-content: center; align-items: center; font-size: 1.5rem; color: white;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Working with John was an absolute pleasure. He understood our vision perfectly and 
+                        translated it into a beautiful, functional website that exceeded our expectations."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="display: flex; justify-content: center; align-items: center; font-size: 1.5rem; color: white; background: linear-gradient(135deg, #f093fb, #f5576c);">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Michael Chen</h4>
+                            <p>Founder, Design Studio</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "John's expertise in both frontend and backend development made our project run smoothly. 
+                        He delivered on time and within budget. We'll definitely work with him again!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="display: flex; justify-content: center; align-items: center; font-size: 1.5rem; color: white; background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Marketing Director, Brand Co.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The mobile app John developed for us has received amazing feedback from our users. 
+                        His problem-solving skills and creative approach made all the difference."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="display: flex; justify-content: center; align-items: center; font-size: 1.5rem; color: white; background: linear-gradient(135deg, #fa709a, #fee140);">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>David Park</h4>
+                            <p>CTO, AppVenture</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-nav">
+                <button id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header reveal">
+            <span class="section-badge">
+                <i class="fas fa-envelope"></i>
+                Contact
+            </span>
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <p class="section-description">
+                Have a project in mind? Let's work together to bring your ideas to life.
+            </p>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-info reveal-left">
+                <h3>Let's Talk About Your Project</h3>
+                <p>
+                    I'm always open to discussing new projects, creative ideas, or opportunities 
+                    to be part of your visions. Feel free to reach out!
+                </p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-item-text">
+                            <strong>Location</strong>
+                            <span>Pune, MH 410406, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-item-text">
+                            <strong>Email</strong>
+                            <span>omkarghare88@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-item-text">
+                            <strong>Phone</strong>
+                            <span>+91 8698093024</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/omkar-ghare-472a8a277" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Omkarghare8" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/omkarghare6600" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://dribbble.com/omkar-ghare" class="social-link" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper reveal-right">
+                <form class="contact-form" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@gmail.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 5551234567">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="https://www.instagram.com/ogcoderworld" class="footer-logo">OMKAR GHARE</a>
+                <p>Creating exceptional digital experiences through innovative design and development.</p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/omkar-ghare-472a8a277" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Omkarghare8" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/omkarghare6600" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://dribbble.com/omkar-ghare" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
+                    <li><a href="#">SEO Optimization</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:omkarghare88@gmail.com">omkarghare88@gmail.com</a></li>
+                    <li><a href="tel:+918698093024">+91 8698093024</a></li>
+                    <li><a href="#">Pune, India</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 OMKAR ROHIDAS GHARE. All rights reserved. Crafted And Designed with ❤️</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>
