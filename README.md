@@ -1,2 +1,63 @@
-# personal-portfolio-website-v9
-A clean, minimal, and futuristic portfolio website template developed with modern front-end technologies and responsive design principles. This template combines elegant visuals, smooth interactions, and structured layouts to create a professional showcase platform for developers and creatives.
+# 🌟 Personal Portfolio Website Template — V9
+
+A futuristic and modern portfolio website template designed for developers, freelancers, and creative professionals.
+
+---
+
+## 🚀 Key Features
+
+- Fully Responsive UI
+- Smooth Scroll Effects
+- Minimal Modern Design
+- Interactive Sections
+- Portfolio Showcase
+- Mobile Optimized
+- Clean Source Code
+- Easy To Customize
+
+---
+
+## 🛠️ Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📸 Preview
+
+![Preview](Images/Preview.png)
+
+---
+
+## 📁 Files Included
+
+```bash
+├── index.html
+├── css/
+├── js/
+├── Images/
+       └── Preview.png
+```
+
+---
+
+## 🎨 Design Highlights
+
+- Premium Visual Aesthetics
+- Modern Typography
+- Structured Layout System
+- Interactive User Experience
+
+---
+
+## 👨‍💻 Creator
+
+Designed & Developed By **Omkar R. Ghare**
+
+---
+
+## 📄 License
+
+Available for personal and educational use.
